@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="store.js" async></script>
+</head>
+<body>
+    <div class="bg-img p-3">
+      <!-- <div class="row bg-light" style="height: 50vh;">Text</div> -->
+        <div class="row mx-0 py-3 bg-light">
+            <div class="col-sm-8">
+                <p class="d-flex justify-content-between algin-items-center"><span><img src="logo_2.jpg" class="logo-img"><span>MR. and MRS. <span class="f-s">Let what we can do together</span></span></span><small class="text-muted">Order #00 Today, 20 Mar 2021, 02:34 PM </small></p> 
+
+                <!-- <div class=""></div> -->
+                <div class="card rounded-3 mb-3">
+                    <div class="card-body" >
+                      
+                        <ul class="nav nav-pills"role="tablist">
+                            <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-food-tab" data-bs-toggle="pill" data-bs-target="#pills-food" type="button" role="tab" aria-controls="pills-food" aria-selected="true">Coffee</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Drink</button>
+                            </li>
+                        </ul>
+                  </div>
+                </div>
+                
+
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-food" role="tabpanel" aria-labelledby="pills-food-tab">
+                        <div class="row row-cols-1 row-cols-md-4 g-4">
+                            <div class="col">
+                              <div class="card h-100">
+                                <img class="shop-item-image" draggable="false" src="Images/Latte1.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <div>
+                                  <h5 class="card-title shop-item-title">Latte</h5>
+                                  <span class="f-s">Caffè latte is a coffee beverage of Italian origin made with espresso and steamed milk.</span><br>
+                                  <div class="mt-1">
+                                    <span class="price">Price:- </span><span class="shop-item-price">$2.99</span>
+                                  </div>
+                                  </div>
+                                  <button class="btn btn-primary btn-lg w-100 ali-cen shop-item-button ">Add to Cart</button>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="card">
+                                <img class="shop-item-image" draggable="false" src="Images/Espresso.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <div>
+                                    <h5 class="card-title shop-item-title">Espresso</h5>
+                                    <span class="f-s">Espresso is a coffee-brewing method in which a small amount of nearly boiling water is forced</span><br>
+                                    <span class="price">Price:- </span><span class="shop-item-price">$2.99</span>
+                                  </div>
+                                  <button class="btn btn-primary btn-lg w-100 ali-cen shop-item-button">Add to Cart</button>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="card">
+                                <img class="shop-item-image" draggable="false" src="Images/Cappuccino.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <div>
+                                    <h5 class="card-title shop-item-title">Cappuccino</h5>
+                                    <span class="f-s">A cappuccino is an espresso-based coffee drink which is prepared with steamed milk foam.</span>
+                                    <div class="">
+                                      <span class="price">Price:- </span><span class="shop-item-price">$2.99</span>
+                                    </div>
+                                    </div>
+                                  <button class="btn btn-primary btn-lg w-100 ali-cen shop-item-button">Add to Cart</button>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="card">
+                                <img class="shop-item-image" draggable="false" src="Images/Americano.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <div>
+                                    <h5 class="card-title shop-item-title">Americano</h5>
+                                    <span class="f-s">Caffè Americano is a type of coffee drink prepared by diluting an espresso with hot water</span>
+                                    <div class="">
+                                      <span class="price">Price:- </span><span class="shop-item-price">$2.99</span>
+                                    </div>
+                                    </div>
+                                  <button class="btn btn-primary btn-lg w-100 ali-cen shop-item-button">Add to Cart</button>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <div class="row row-cols-1 row-cols-md-4 g-4">
+                            <div class="col">
+                              <div class="card h-100">
+                                <img class="shop-item-image" draggable="false" src="Images/Mojito-Mocktail.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <div>
+                                    <h5 class="card-title shop-item-title">Mint Mojito</h5>
+                                    <span class="f-s">Made of large mint leaves, tablespoon sugar, white rum, tablespoon lime juice (from half a lime), Soda water.</span>
+                                    <div class="">
+                                    <span class="price">Price:- </span><span class="shop-item-price">$2.99</span>
+                                  </div>
+                                  </div>
+                                  <button class="btn btn-primary btn-lg w-100 ali-cen shop-item-button">Add to Cart</button>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="card h-100">
+                                <img class="shop-item-image" draggable="false" src="Images/VirginMojito.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <div>
+                                    <h5 class="card-title shop-item-title">Vrigin Mojito</h5>
+                                    <span class="f-s">Virgin Mojito is a classic and refreshing non-alcoholic drink made from mint leaves, lemon juice and sweetened to taste</span>
+                                    <span class="price">Price:- </span><span class="shop-item-price">$2.99</span>
+                                  </div>
+                                  <button class="btn btn-primary btn-lg w-100 ali-cen shop-item-button">Add to Cart</button>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="card h-100">
+                                <img class="shop-item-image" draggable="false" src="Images/Blue-Lagoon-Cocktail.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <div>
+                                    <h5 class="card-title shop-item-title">Blue Lagoon</h5>
+                                    <span class="f-s">The Blue Lagoon cocktail is a beautiful vibrant blue drink made with vodka, blue curaçao and lemonade</span><br>
+                                    <span class="price">Price:- </span><span class="shop-item-price">$2.99</span>
+                                  </div>
+                                  <button class="btn btn-primary btn-lg w-100 ali-cen shop-item-button">Add to Cart</button>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="card h-100">
+                                <img class="shop-item-image" draggable="false" src="Images/Diet_coke.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <div>
+                                    <h5 class="card-title shop-item-title">Deit Coke</h5>
+                                    <span class="f-s">Diet Coke is a sugar-free and no-calorie soft drink produced and distributed by the Coca-Cola Company.</span>
+                                    <div class="">
+                                      <span class="price">Price:- </span><span class="shop-item-price">$2.99</span>
+                                    </div>
+                                    </div>
+                                  <button class="btn btn-primary btn-lg w-100 ali-cen shop-item-button">Add to Cart</button>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+ 
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="d-flex justify-content-between algin-items-center"><span class="section-header">Cart</span>
+                        <button class="btn btn-sm btn-clear">Clear</button>
+                        </h5>
+                        <hr>
+                        <div class="manage">
+                        <div class="cart-row">
+                          <span class="cart-item cart-header cart-column">ITEM</span>
+                          <span class="cart-price cart-header cart-column">PRICE</span>      
+                          <span class="cart-quantity cart-header cart-column" style="margin-left: auto;">QUANTITY</span>
+                      </div>
+                      <div class="cart-items">
+                      </div>
+                      </div>
+                        <hr>
+                        <div class="cart-total">
+                          <strong class="total-items">Total Items</strong>
+                          <span class="total-items-value">0</span><br>
+                          <strong class="cart-total-title">Total</strong>
+                          <span class="cart-total-price">$0</span>
+                      </div>
+                      <hr>
+                      <button class="btn btn-primary btn-lg w-100 btn-purchase" type="button">PURCHASE</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
